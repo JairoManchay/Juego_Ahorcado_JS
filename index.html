@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Juego del ahorcado</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="uploadContent">
+      <header><h1>JUEGO DEL AHORCADO</h1></header>
+
+    <div class="contenedorg">
+
+      <div class="imgpuntaje">
+        <img id="ahorcado" src="imgs/0.jpg" alt="ahorcado en pantalla"> <!--6 imagenes-->
+      </div>
+
+      <div class="contenedor1">
+          <p id="palabra_a_adivinar"></p>
+          <div id="contenedor2">
+            <label for="name">Introduce una letra:</label>
+            <input type="text" id="letra" maxlength="1" />
+            <button class="ingresar"id="ingresar"><img src="https://static.thenounproject.com/png/44496-200.png"></button>
+          </div>
+          <div id="boton">
+          <button class="obtpal"id="jugar">Obtener palabra</button>
+          <button class="reiniciar"id="refrescar">Obtener la palabra</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="gameover" id="perdedor">
+        <h1>PERDISTE</h1>
+        <p><button class="reiniciar2" id="reset">Jugar otra vez</button></p>
+    </div>
+
+    <div class="win" id="ganador">
+        <h1>¡GANASTE!</h1>
+        <p>Juegas otra? <button class="reiniciar2" id="reset2">Jugar otra vez</button>
+ 
+        </p>
+    </div>
+
+    <script type="text/javascript" src="./script1.js"></script>
+
+  </body>
+</html>

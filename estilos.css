@@ -1,0 +1,121 @@
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/928/377/non_2x/landscape-scene-silhouette-with-medieval-town-free-vector.jpg");
+  background-size: 100%;
+}
+header {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'MedievalSharp', cursive;
+  position: relative;
+  width: 80%;
+  margin: 50px auto;
+}
+.contenedorg {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  gap: 80px;
+}
+.imgpuntaje img {
+  width: 700px;
+  height: 700px;
+  margin-left: 10px;
+  margin-right: 30px;
+  border-radius: 5%;
+
+}
+.contenedor1 p{
+  font-size: 100px;
+}
+.contenedor1 label{
+  font-size: 48px;
+}
+.contenedor1 input{
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+}
+.input.size{
+  width: 50px;
+}
+#contenedor2{
+  display: none;
+}
+.ingresar{
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.ingresar img{
+  width: 37px;
+  height: 37px;
+  margin-top: 3px;
+}
+.obtpal{
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  position: absolute;
+  top: 65%;
+  right: 20%;
+}
+.reiniciar{
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 10%;
+  position: absolute;
+  top: 65%;
+  right: 20%;
+}
+.reiniciar2{
+  cursor: pointer;
+  border-radius: 10%;
+  margin-top: 3px;
+  font-size: 28px;
+}
+.reiniciar img {
+  width: 37px;
+  height: 37px;
+  margin-top: 3px;
+}
+.gameover {
+  display: none;
+}
+#perdedor {
+  display: none;
+  background-image: url("imgs/fondo.jpg");
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-size: 5rem;
+  position: fixed;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+}
+#ganador {
+  display: none;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/928/377/non_2x/landscape-scene-silhouette-with-medieval-town-free-vector.jpg");
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-size: 5rem;
+  position: fixed;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+}
+.gameover h1{
+  font-family: 'MedievalSharp', cursive;
+  text-align: center;
+}
+.win h1 {
+  font-family: 'MedievalSharp', cursive;
+  text-align: center;
+}
