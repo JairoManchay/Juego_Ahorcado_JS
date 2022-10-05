@@ -42,7 +42,7 @@ document.getElementById("jugar").addEventListener('click', () => {
 
     reemplazarDatos = datosAzar.replace(/./g, "_ ");
     document.getElementById("palabra_a_adivinar").innerHTML = reemplazarDatos;
-    alert("para fines de ver funcionamiento, la palabra es: " + datosAzar);
+    // alert("para fines de ver funcionamiento, la palabra es: " + datosAzar);
     document.getElementById('contenedor2').style.display = 'flex';
 })
 
